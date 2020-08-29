@@ -11,11 +11,21 @@ public class AskSokkaStreamHandler extends SkillStreamHandler {
     private static Skill getSkill() {
         return Skills.standard()
                 .addRequestHandlers(
+                        new AddItemToShoppingListIntentHandler(),
                         new CancelandStopIntentHandler(),
                         new FallbackIntentHandler(),
+                        new HeightOfMountainIntentHandler(),
                         new HelpIntentHandler(),
                         new LaunchRequestHandler(),
+                        new NumTeaspoonsInATablespoonIntentHandler(),
+                        new PlayMusicGenreIntentHandler(),
                         new SessionEndedRequestHandler(),
+                        new SokkaCurrentTimeIntentHandler(),
+                        new SokkaDefineWordIntentHandler(),
+                        new SokkaFlashNewsBriefingIntentHandler(),
+                        new SokkaPlayDanceMixIntentHandler(),
+                        new SokkaSpellWordIntentHandler(),
+                        new SokkaTellJokeIntentHandler(),
                         new WhatCanSokkaDoIntentHandler()
                 )
                 .build();
