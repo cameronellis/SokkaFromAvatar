@@ -16,7 +16,7 @@ public class SokkaPlayDanceMixIntentHandler implements RequestHandler {
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
-        String speechText = "Music from the YouTube video";
+        String speechText = "<audio src=\"https://alexa-skill-sokka-from-avatar.s3-us-west-2.amazonaws.com/neverGonnaGiveYouUp.mp3\" />";
         return input.getResponseBuilder()
                 .withSpeech(speechText)
                 .build();

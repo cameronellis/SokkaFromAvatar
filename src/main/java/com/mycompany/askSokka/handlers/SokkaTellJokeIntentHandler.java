@@ -16,8 +16,7 @@ public class SokkaTellJokeIntentHandler implements RequestHandler {
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
-        String speechText = "The whole time that I was in that hole, not knowing if I would live or die, " +
-                "it makes a man think about…";
+        String speechText = "<audio src=\"https://alexa-skill-sokka-from-avatar.s3-us-west-2.amazonaws.com/theWholeTimeIWasInThatHoleItMakesA.mp3\" />";
         return input.getResponseBuilder()
                 .withSpeech(speechText)
                 .build();

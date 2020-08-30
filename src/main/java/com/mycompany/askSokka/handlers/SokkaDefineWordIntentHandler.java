@@ -16,7 +16,7 @@ public class SokkaDefineWordIntentHandler implements RequestHandler {
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
-        String speechText = "Easy enough ha ha ha";
+        String speechText = "<audio src=\"https://alexa-skill-sokka-from-avatar.s3-us-west-2.amazonaws.com/easyEnoughHaHaHa.mp3\" />";
         return input.getResponseBuilder()
                 .withSpeech(speechText)
                 .build();

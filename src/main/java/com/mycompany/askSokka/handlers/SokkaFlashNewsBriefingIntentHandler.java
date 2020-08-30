@@ -16,7 +16,7 @@ public class SokkaFlashNewsBriefingIntentHandler implements RequestHandler {
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
-        String speechText = "Today, we’re invading the fire nation, and, uh, there’s an eclipse today";
+        String speechText = "<audio src=\"https://alexa-skill-sokka-from-avatar.s3-us-west-2.amazonaws.com/todayWereInvadingTheFireNation.mp3\" />";
         return input.getResponseBuilder()
                 .withSpeech(speechText)
                 .build();

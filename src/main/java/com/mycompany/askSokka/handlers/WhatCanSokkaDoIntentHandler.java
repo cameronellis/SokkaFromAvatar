@@ -16,7 +16,7 @@ public class WhatCanSokkaDoIntentHandler implements RequestHandler {
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
-        String speechText = "Good morning everyone, so, as you know, um…. I’m sorry, let me start at the beginning";
+        String speechText = "<audio src=\"https://alexa-skill-sokka-from-avatar.s3-us-west-2.amazonaws.com/goodMorningEveryone.mp3\" />";
         return input.getResponseBuilder()
                 .withSpeech(speechText)
                 .build();

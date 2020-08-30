@@ -16,7 +16,7 @@ public class HeightOfMountainIntentHandler implements RequestHandler {
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
-        String speechText = "I’d like to spend my vacation, at the library!";
+        String speechText = "<audio src=\"https://alexa-skill-sokka-from-avatar.s3-us-west-2.amazonaws.com/idliketospendmyvacationatthelibrary.mp3\" />";
         return input.getResponseBuilder()
                 .withSpeech(speechText)
                 .build();

@@ -16,7 +16,8 @@ public class PlayMusicGenreIntentHandler implements RequestHandler {
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
-        String speechText = "Badger moles coming toward me…";
+        String speechText = "<audio src=\"https://alexa-skill-sokka-from-avatar.s3-us-west-2.amazonaws.com/badgermolescomingtowardsme.mp3\" />";
+
         return input.getResponseBuilder()
                 .withSpeech(speechText)
                 .build();

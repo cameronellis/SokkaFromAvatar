@@ -16,7 +16,7 @@ public class NumTeaspoonsInATablespoonIntentHandler implements RequestHandler {
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
-        String speechText = "Why don’t we ask the circle birds?";
+        String speechText = "<audio src=\"https://alexa-skill-sokka-from-avatar.s3-us-west-2.amazonaws.com/whyDontWeAskTheCircleBirds.mp3\" />";
         return input.getResponseBuilder()
                 .withSpeech(speechText)
                 .build();

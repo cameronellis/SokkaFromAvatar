@@ -16,7 +16,7 @@ public class SokkaSpellWordIntentHandler implements RequestHandler {
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
-        String speechText = "Why are you all looking at me? That’s a lot of pressure";
+        String speechText = "<audio src=\"https://alexa-skill-sokka-from-avatar.s3-us-west-2.amazonaws.com/whyAreYouAllLookingAtMeThatsALotOf.mp3\" />";
         return input.getResponseBuilder()
                 .withSpeech(speechText)
                 .build();

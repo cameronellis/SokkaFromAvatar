@@ -16,7 +16,8 @@ public class AddItemToShoppingListIntentHandler implements RequestHandler {
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
-        String speechText = "You know, I’ve been thinking about getting one for myself";
+        String speechText = "<audio src=\"https://alexa-skill-sokka-from-avatar.s3-us-west-2.amazonaws.com/youKnowI'veBeenThinkingOfGettingOneForMyself.mp3\" />";
+
         return input.getResponseBuilder()
                 .withSpeech(speechText)
                 .build();

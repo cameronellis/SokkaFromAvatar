@@ -16,7 +16,7 @@ public class SokkaCurrentTimeIntentHandler implements RequestHandler {
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
-        String speechText = "Looks like it’s time for another therapy session";
+        String speechText = "<audio src=\"https://alexa-skill-sokka-from-avatar.s3-us-west-2.amazonaws.com/lookslikeitstimeforanothertherapysession.mp3\" />";
         return input.getResponseBuilder()
                 .withSpeech(speechText)
                 .build();
