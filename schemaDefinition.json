@@ -1,0 +1,146 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "sokka from avatar",
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "MEDIUM"
+        }
+      },
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "WhatCanSokkaDoIntent",
+          "slots": [],
+          "samples": [
+            "what he's able to do",
+            "what he is capable of",
+            "what it is he can do",
+            "what's possible for him to do",
+            "what can he do"
+          ]
+        },
+        {
+          "name": "PlayMusicGenreIntent",
+          "slots": [],
+          "samples": [
+            "play some music",
+            "play some rock music",
+            "play rock music"
+          ]
+        },
+        {
+          "name": "SokkaCurrentTimeIntent",
+          "slots": [],
+          "samples": [
+            "what the time is",
+            "what's the current time",
+            "what's the time",
+            "what the current time is",
+            "what time it is"
+          ]
+        },
+        {
+          "name": "HeightOfMountainIntent",
+          "slots": [],
+          "samples": [
+            "how tall mount everest is",
+            "what the height of mount everest is",
+            "if he knows how tall mount everest is",
+            "if he knows how tall Mt. Everest is",
+            "what the height of Mt. Everest is",
+            "how tall Mt. Everest is"
+          ]
+        },
+        {
+          "name": "AddItemToShoppingListIntent",
+          "slots": [],
+          "samples": [
+            "add to my shopping list some wrapping paper",
+            "add some wrapping paper to my shopping list",
+            "add some wrapping paper to the shopping list",
+            "add to the shopping list wrapping paper",
+            "add wrapping paper to the shopping list"
+          ]
+        },
+        {
+          "name": "NumTeaspoonsInATablespoonIntent",
+          "slots": [],
+          "samples": [
+            "how many teaspoons there are in a tablespoon",
+            "how many teaspoons are in a tablespoon"
+          ]
+        },
+        {
+          "name": "SokkaFlashNewsBriefingIntent",
+          "slots": [],
+          "samples": [
+            "give us a flash news briefing",
+            "give me a flash news briefing",
+            "give us my flash news briefing",
+            "give me my flash news briefing"
+          ]
+        },
+        {
+          "name": "SokkaTellJokeIntent",
+          "slots": [],
+          "samples": [
+            "say someting funny",
+            "tell us something funny",
+            "tell me something funny",
+            "tell us some joke",
+            "tell me some joke",
+            "tell us a joke",
+            "tell me a joke"
+          ]
+        },
+        {
+          "name": "SokkaSpellWordIntent",
+          "slots": [],
+          "samples": [
+            "spell the word cantaloupe",
+            "spell cantaloupe"
+          ]
+        },
+        {
+          "name": "SokkaPlayDanceMixIntent",
+          "slots": [],
+          "samples": [
+            "play a dance mix",
+            "play the dance mix",
+            "play our dance mix",
+            "play my dance mix"
+          ]
+        },
+        {
+          "name": "SokkaDefineWordIntent",
+          "slots": [],
+          "samples": [
+            "define annoying",
+            "to define annoying"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}
