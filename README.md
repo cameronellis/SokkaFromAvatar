@@ -6,7 +6,7 @@ Ever wanted to ask Sokka from the popular television series Avatar: The Last Air
 
 Motivation from this viral YouTube video: [Amazon Echo: Sokka Style ( Avatar: The Last Airbender )](https://www.youtube.com/watch?v=MbS-keXO7fY)
 
-## Questions you can Ask Sokka
+## Questions you can ask Sokka
 - “Alexa, ask sokka from avatar what he can do”
 - “Alexa, ask sokka from avatar to play rock music”
 - “Alexa, ask sokka from avatar what time it is”
