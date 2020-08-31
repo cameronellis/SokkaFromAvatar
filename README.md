@@ -20,9 +20,11 @@ Motivation from this viral YouTube video: [Amazon Echo: Sokka Style ( Avatar: Th
 - “Alexa, ask sokka from avatar to define annoying”
 
 ## Announcements 
-This project is still in development! 
+This project is still in development!
 
-Currently, the skill does not respond with audio from Sokka but Alexa (for now). This is the next feature that will be added!
+You're now able to get responses from Sokka!
+
+The next steps are iron out any wrinkles in making the user experience as smooth as possible, confirguring access permissions on the S3 bucket to securely handle requests,   review certification requirements to publish this skill on the Alexa marketplace, and to publicize this skill
 
 ## Getting Started
 
