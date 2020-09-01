@@ -7,24 +7,25 @@ Ever wanted to ask Sokka from the popular television series Avatar: The Last Air
 Motivation from this viral YouTube video: [Amazon Echo: Sokka Style ( Avatar: The Last Airbender )](https://www.youtube.com/watch?v=MbS-keXO7fY)
 
 ## Questions you can ask Sokka
-- “Alexa, ask sokka from avatar what he can do”
-- “Alexa, ask sokka from avatar to play rock music”
-- “Alexa, ask sokka from avatar what time it is”
-- “Alexa, ask sokka from avatar how tall Mt. Everest is”
-- “Alexa, ask sokka from avatar to add wrapping paper to the shopping list”
-- “Alexa, ask sokka from avatar how many teaspoons there are in a tablespoon”
-- “Alexa, ask sokka from avatar to give me my flash news briefing”
-- “Alexa, ask sokka from avatar to tell me a joke”
-- “Alexa, ask sokka from avatar to spell cantaloupe”
-- “Alexa, ask sokka from avatar to play my dance mix”
-- “Alexa, ask sokka from avatar to define annoying”
+- “Alexa, ask Sokka from avatar what he can do”
+- “Alexa, ask Sokka from avatar to play rock music”
+- “Alexa, ask Sokka from avatar what time it is”
+- “Alexa, ask Sokka from avatar how tall Mt. Everest is”
+- “Alexa, ask Sokka from avatar to add wrapping paper to the shopping list”
+- “Alexa, ask Sokka from avatar how many teaspoons there are in a tablespoon”
+- “Alexa, ask Sokka from avatar to give me my flash news briefing”
+- “Alexa, ask Sokka from avatar to tell me a joke”
+- “Alexa, ask Sokka from avatar to spell cantaloupe”
+- “Alexa, ask Sokka from avatar to play my dance mix”
+- “Alexa, ask Sokka from avatar to define annoying”
+- "Alexa, what are some questions I can ask Sokka from Avatar?"
 
 ## Announcements 
 This project is still in development!
 
 You're now able to get responses from Sokka!
 
-The next steps are iron out any wrinkles in making the user experience as smooth as possible, confirguring access permissions on the S3 bucket to securely handle requests,   review certification requirements to publish this skill on the Alexa marketplace, and to publicize this skill
+The next steps are iron out any wrinkles in making the user experience as smooth as possible, review certification requirements to publish this skill on the Alexa marketplace, and to publicize this skill
 
 ## Getting Started
 
@@ -91,6 +92,8 @@ mvn org.apache.maven.plugins:maven-assembly-plugin:2.6:assembly -DdescriptorId=j
 
 * [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)
 * [AWS Lambda](https://aws.amazon.com/lambda/)
+* [AWS IAM](https://aws.amazon.com/iam/)
+* [AWS S3](https://aws.amazon.com/s3/)
 * [Maven 3.3.9](https://maven.apache.org/)
 * [Alexa Skills Kit SDK for Java](https://github.com/alexa/alexa-skills-kit-sdk-for-java)
 
